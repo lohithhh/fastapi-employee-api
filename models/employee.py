@@ -25,3 +25,9 @@ class Employee(Base):
         Integer,
         nullable=False
     )
+
+    email = Column(
+        String,
+        unique=True,
+        nullable=True
+    )

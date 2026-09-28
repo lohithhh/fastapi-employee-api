@@ -57,6 +57,7 @@ def create_employee(
 ):
     new_employee = Employee(
         name=employee.name,
+        email=employee.email,
         department=employee.department,
         salary=employee.salary
     )
